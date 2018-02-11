@@ -236,3 +236,107 @@ input[type=submit] {
      padding:10px 30px;
      cursor: pointer; 
 }
+
+/* Responsive Mainpage */
+@media screen and (min-width:375px) and (max-width:768px){
+    .container, #masterhead,.sidebar {
+        margin:auto;
+        float:none;
+        clear: both;
+        width:100%;
+   }
+   section {
+       max-width:none;
+   }
+  #logo, nav,.main-section {
+      width:100%;
+  }
+   
+    .main-section{
+        max-width: 350px;
+        overflow:auto;
+        
+    }
+
+    .auth-image,.main-section{
+        float:none;
+        margin:auto;
+        
+        
+    }
+
+   
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:980px){
+    .container, #masterhead,.sidebar {
+        margin:auto;
+        float:none;
+        clear: both;
+        width:100%;
+   }
+  #logo, nav,.main-section {
+      width:100%;
+  }
+   
+    .main-section{
+        max-width: 700px;
+        overflow:auto;
+        
+    }
+
+    .auth-image,.main-section{
+        float:none;
+        margin:auto;
+        
+    }
+
+
+
+
+}
+
+@media screen and (min-width:1358px) and (max-width:1680){
+   .container,
+   #masterhead, 
+   .sidebar,
+   .main-section,
+   .main-container, 
+   .container,
+   #logo,
+   nav{
+    width:100%;
+   }
+
+   
+    .container, #masterhead,.sidebar {
+        max-width:1680px;
+       
+   }
+  #logo, nav,.main-section {
+      width:100%;
+   
+    .main-section{
+        max-width:1200;
+        overflow:auto;
+       
+        
+    }
+
+  
+
+    .container, .main-container{
+        max-width:none;
+        overflow:auto;
+    }
+    
+    .sidebar{
+        max-width:370;
+    }
+
+
+
+
+}
